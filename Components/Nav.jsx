@@ -4,8 +4,8 @@ import { IoCartOutline } from 'react-icons/io5'
 
 const Nav = () => {
     return (
-        <div className='flex justify-between text-2xl items-center py-4'>
-            <div><img src="/EV-logo1.png" alt="Ev-logo" /></div>
+        <div className='flex justify-between text-2xl items-center py-4 mx-20'>
+            <div><img src="/EV-logo1.png" alt="Ev-logo"/></div>
             <div className='flex gap-10'>
                 <div className=''>
                     <label htmlFor="products" className='text-[#FFA70F] font-semibold'>Products</label>
@@ -30,7 +30,7 @@ const Nav = () => {
                         className='text-sm'
                     />
                 </div>
-                <div className='flex text-4xl'>
+                <div className='relative flex text-4xl'>
                     <IoCartOutline />
                     <div className='absolute right-0 p-2 rounded-full bg-[#FFA70F]'></div>
                 </div>

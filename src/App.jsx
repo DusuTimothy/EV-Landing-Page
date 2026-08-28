@@ -5,7 +5,7 @@ import AboutUs from '../Components/AboutUs'
 
 const App = () => {
   return (
-    <div>
+    <div className=''>
       <Nav />
       <Hero />
       <AboutUs />
