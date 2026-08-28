@@ -18,7 +18,7 @@ const Hero = () => {
                         </div>
                         <div className='mt-15'>
                             <h2 className='text-lg text-white'>OUR PARTNERS</h2>
-                            <div className='flex gap-10 items-center h-6'>
+                            <div className='flex mt-4 gap-10 items-center h-6'>
                                 <img src="/logoipsum.png" alt="" width={128.82} />
                                 <img src="/Hyper.png" alt="" width={128.82} className='h-20' />
                                 <img src="/commentlogoipsum.png" alt="" width={128.82} />
