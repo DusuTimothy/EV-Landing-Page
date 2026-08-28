@@ -5,23 +5,23 @@ const AboutUs = () => {
         <div className='grid grid-cols-2 mx-20 mt-20'>
             <div className='flex gap-4'>
                 <div id='left-car' className='relative'>
-                    <div className='absolute top-[80px] left-[80px] bg-white w-31 h-30.5 px-4 py-2 rounded-xl'>
+                    <div className='absolute top-20 left-20 bg-white w-31 h-30.5 px-4 py-2 rounded-xl'>
                         <h3 className='text-[32px] font-bold text-[#042C5B]'>329K</h3>
                         <p className='text-[12px]'>Charging Stations</p>
                         <p className='py-1 w-13.75 bg-[#F4842B]'></p>
                     </div>
-                    <div className='bg-[#042C5B] p-16 w-[282px] h-[86px] mb-4 rounded-tl-[80px]'></div>
+                    <div className='bg-[#042C5B] p-16 w-70.5 h-21.5 mb-4 rounded-tl-20'></div>
                     <img src="/AboutCar.png" alt="about-car" className='w-[282px] h-[423px]' />
                 </div>
 
                 <div id='right-gas' className='relative rotate-180'>
-                    <div className='absolute top-[80px] z-10 left-[80px] bg-white w-31 h-30.5 px-4 py-2 rounded-xl rotate-180'>
+                    <div className='absolute top-20 z-10 left-20 bg-white w-31 h-30.5 px-4 py-2 rounded-xl rotate-180'>
                         <h3 className='text-[32px] font-bold text-[#042C5B]'>682K</h3>
                         <p className='text-[12px]'>EV <br /> Vehicles</p>
                         <p className='py-1 w-13.75 bg-[#042C5B]'></p>
                     </div>
-                    <div className='bg-[#F4842B] p-16 w-[282px] h-[86px] mb-4 rounded-tl-[80px]'></div>
-                    <img src="/AboutGas.png" alt="about-Gas" className='w-[282px] h-[423px] rotate-180' />
+                    <div className='bg-[#F4842B] p-16 w-70.5 h-21.5 mb-4 rounded-tl-[80px]'></div>
+                    <img src="/AboutGas.png" alt="about-Gas" className='w-70.5 h-105 rotate-180' />
                 </div>
             </div>
             <div className=''>
