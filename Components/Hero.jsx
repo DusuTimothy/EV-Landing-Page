@@ -12,7 +12,7 @@ const Hero = () => {
                     <p className='text-white text-2xl'>Explore a new era of electric mobility with EV’s built for urban delivery, sustainability and convenience... </p>
                     <div className='flex gap-6'>
                         <button className='flex items-center gap-2 bg-[#F18729] text-white border border-[#FEFEFE] text-sm px-8 py-2 rounded-2xl '>SHOP NOW <LuCircleArrowRight className='text-2xl' /></button>
-                        <button className='flex items-center gap-2 text-[#042C5B] bg-[#FFFFFF] border border-[#FEFEFE] text-sm px-8 py-2 rounded-2xl '>CHARGING STATIONS<LuCircleArrowRight className='text-2xl' /></button>
+                        <button className='flex items-center gap-2 text-[#042C5B] bg-[#FFFFFF] border border-[#FEFEFE] text-sm px-8 py-2 rounded-2xl '>CHARGING STATIONS<LuCircleArrowRight className='text-2xl'/></button>
 
 
                     </div>
