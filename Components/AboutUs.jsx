@@ -2,9 +2,21 @@ import React from 'react'
 
 const AboutUs = () => {
     return (
-        <div>
+        <div className='grid grid-cols-2 '>
             <div>
+                <div id='left-car'>
+                    <div className='absolute bg-white w-31 h-30.5 px-4 py-2 rounded-xl'>
+                        <h3 className='text-[32px] font-bold text-[#042C5B]'>329K</h3>
+                        <p className='text-[12px]'>Charging Stations</p>
+                        <p className='py-1 w-13.75 bg-[#F4842B]'></p>
+                    </div>
+                    <div></div>
+                    <img src="/AboutCar.png" alt="" />
+                </div>
+                <div id='right-gas'>
+                    <img src="" alt="" />
 
+                </div>
             </div>
             <div className=''>
                 <h4 className='text-[#F4842B]'>ABOUT US</h4>
@@ -13,10 +25,10 @@ const AboutUs = () => {
                 <div>
                     <h3 className='text-[#042C5B] text-[36px]'>Why RoadRunner?</h3>
                     <p className='text-[#797979]'>
-                        ✔ Affordable, high-performing EVs <br />
-                        ✔ Convenient battery swap and charging networks <br />
-                        ✔ Trusted by riders, businesses, and delivery services <br />
-                        ✔ Committed to a greener, smarter tomorrows. <br />
+                        <span>✔</span> Affordable, high-performing EVs <br />
+                        <span>✔</span> Convenient battery swap and charging networks <br />
+                        <span>✔</span> Trusted by riders, businesses, and delivery services <br />
+                        <span>✔</span> Committed to a greener, smarter tomorrows. <br />
                     </p>
 
                 </div>

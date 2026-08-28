@@ -4,7 +4,7 @@ import { LuCircleArrowRight } from 'react-icons/lu'
 const Hero = () => {
     return (
         <div className=" h-screen w-full bg-[url('/Hero-bike.png')] bg-cover bg-center">
-            <div className='absolute bg-[#0000007D] h-full w-full opacity-5'></div>
+            <div className='absolute bg-[#0000007D] h-full w-full opacity-100'>
             <div className='grid grid-cols-2 items-center pt-30'>
                 <div className='grid gap-4'>
                     <img src="/Eco.png" alt="ecogreen" width={120} />
@@ -30,6 +30,7 @@ const Hero = () => {
 
                 <div className='ml-auto'><img src="/BikeArrow.png" alt="bike-arrow" className='w-21' /></div>
 
+            </div>
             </div>
         </div>
     )
