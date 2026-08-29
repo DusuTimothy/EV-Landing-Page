@@ -79,7 +79,7 @@ const DeliveryBikes = ({ products }) => {
                         <div className="bg-white">{<img src="/Scooter.png" />}
                             <div className="flex items-center justify-between">
                                 {/* <p>{product.price}</p> */}
-                                <BsArrowUpRightCircleFill />
+                                {/* <BsArrowUpRightCircleFill /> */}
                             </div>
                         </div>
                     </div>

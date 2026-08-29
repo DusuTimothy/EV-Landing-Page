@@ -4,6 +4,8 @@ import Hero from '../Components/Hero'
 import AboutUs from '../Components/AboutUs'
 import DeliveryBikes from '../Components/DeliveryBikes'
 import useFetch from './useFetch'
+import Certification from '../Components/Certification'
+import CustomersSay from '../Components/CustomersSay'
 
 const App = () => {
    const { data, isLoading, error } = useFetch('https://dummyjson.com/products');
@@ -22,6 +24,8 @@ const App = () => {
       <Hero />
       <AboutUs />
       <DeliveryBikes products={data?.products} />
+      <Certification />
+      <CustomersSay products={data?.products} />
         
     </div>
   )
