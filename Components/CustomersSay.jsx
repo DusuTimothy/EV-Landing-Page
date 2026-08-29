@@ -2,7 +2,7 @@
 const CustomersSay = ({ products }) => {
 
     return (
-        <div className="mt-20 mx-20">
+        <div className="my-20 mx-20">
             <h2 className="text-center text-lg text-[#F4842B]">About Us</h2>
             <h3 className="text-center text-4xl font-bold mt-10">What Our Customers are Saying</h3>
             <div className="grid grid-cols-2 justify-center items-center mt-20 gap-10">
